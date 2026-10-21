@@ -1,0 +1,32 @@
+header{
+    background-color: darkslategray;
+    text-align: center;
+
+}
+body{
+    background-color: lightskyblue;
+    color: grey;
+
+}
+.kartyak{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+img{
+    width: 100%;
+}
+@media (max-width: 500px) {
+    .kartyak{
+        grid-template-columns: 1fr;
+
+    }
+}
+a:link {
+  text-decoration: none;
+}
+ul{
+    background-color: grey;
+    color: lightskyblue;
+    text-align: center;
+}
